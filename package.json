@@ -1,0 +1,26 @@
+{
+  "name": "simple-web-audio-recorder-demo-master",
+  "version": "1.0.0",
+  "description": "A simple HTML/JS demo that uses [WebAudioRecorder.js](https://github.com/higuma/web-audio-recorder-js) to record mp3, wav and Vorbis audio on a web page.",
+  "main": "express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node express.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/speech": "^4.10.2",
+    "@google-cloud/storage": "^6.1.0",
+    "axios": "^0.27.2",
+    "botbuilder": "^4.16.0",
+    "botbuilder-dialogs": "^4.16.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "microsoft-cognitiveservices-speech-sdk": "^1.23.0",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7",
+    "siriwave": "^2.3.0"
+  }
+}
