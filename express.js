@@ -12,8 +12,7 @@ const getDialogueResponse = require("./getDialogueResponse");
 
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
-const port = 3002;
-
+const port = process.env.PORT || 3000;
 const app = express();
 // app.use(upload.array());
 app.use(cors());
